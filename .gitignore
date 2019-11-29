@@ -1,0 +1,5 @@
+.stack-work/
+projfs-hs.cabal
+*~
+.vscode
+
