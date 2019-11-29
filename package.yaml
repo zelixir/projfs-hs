@@ -23,7 +23,6 @@ dependencies:
 - base >= 4.7 && < 5
 - base >= 4.7 && < 5
 - Win32
-- language-c
 - parsec
 - hspec
 - storable-static-array
@@ -33,14 +32,10 @@ dependencies:
 - fused-effects == 1.0.0.0
 - entropy
 - bytestring
-- tar
-- zlib
 - containers
-- lens
 - mtl
 - data-default
 - filepath
-- process
 
 library:
   source-dirs: src
@@ -55,6 +50,7 @@ library:
   - RecordWildCards
   - DuplicateRecordFields
   - TypeApplications
+  - RankNTypes
 
 tests:
   projfs-hs-test:

@@ -41,6 +41,8 @@ packages:
 # Dependency packages to be pulled from upstream that are not in the resolver
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)
+extra-deps: 
+- fused-effects-1.0.0.0@sha256:45119e0982e27aeda95aecb47a900ffe1e590a3f22c5c75ce05a2c775180a3fd
 
 
 # Override default flag values for local packages and extra-deps
